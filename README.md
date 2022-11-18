@@ -1,2 +1,2 @@
-# Energy-efficient-RRTstar
-Energy efficient path planner for off-road environment
+# Energy Efficient RRT* Planner
+RRT* based path planner for energy efficient motion planning in off-road environment
