@@ -322,7 +322,7 @@ if __name__ == "__main__":
 
     l = np.array(l)
     # print(l)
-    np.savetxt("... save location /path1.txt", l)
+    np.savetxt("... save location ... /path1.txt", l)
 
     # print(goalnode.cost)
     # print(tree[-1].coordinates)
