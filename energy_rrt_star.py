@@ -292,7 +292,7 @@ if __name__ == "__main__":
     max_iterations = 1000
     d_move = 5
     r_neighborhood = 50
-    z = np.loadtxt("C:/Users/viran/OneDrive/Documents/VIPR/Python/RRTs-main/map1.txt")
+    z = np.loadtxt("... elevation data ... /map1.txt")
     rrtStar = VRRTStar(start, goal, x_bounds, y_bounds, v_bounds, goal_bias, delta_goal, max_iterations, d_move, r_neighborhood, z)
     tree = rrtStar.plan()
 
@@ -322,7 +322,7 @@ if __name__ == "__main__":
 
     l = np.array(l)
     # print(l)
-    np.savetxt("C:/Users/viran/OneDrive/Documents/VIPR/Python/RRTs-main/path1.txt", l)
+    np.savetxt("... save location /path1.txt", l)
 
     # print(goalnode.cost)
     # print(tree[-1].coordinates)
