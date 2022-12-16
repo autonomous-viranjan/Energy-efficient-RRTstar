@@ -6,3 +6,5 @@ Following features are added to the RRT* algorithm:
 - Elevation Check function: eliminates paths with unsafe approach angles
 
 Output shows the asymptotically optimal path on a 2D colormap of an off-road terrain 
+
+![Output](path1.png)
