@@ -1,5 +1,5 @@
 # Viranjan Bhattacharyya
-# EMC2 Lab March 2022
+# Efficient Mobility Lab, Clemson University
 
 import numpy as np
 import matplotlib.pyplot as plt
