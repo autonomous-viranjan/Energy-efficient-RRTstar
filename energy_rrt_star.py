@@ -95,7 +95,6 @@ class VRRTStar:
     def addNode(self, nearest_node, sample_node):
         """
         Point in direction of line joining sampled point and nearest node, at a distance equal to d_move.
-        Find nearby discrete point.
         Parent of newly added node is the nearest node to sampled point.
 
         """
